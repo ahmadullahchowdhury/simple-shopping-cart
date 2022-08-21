@@ -131,3 +131,14 @@ document.getElementById('case-btn-minus').addEventListener('click', function(){
 
  
 })
+
+
+document.getElementById('remove-1').addEventListener('click', function(e){
+    e.target.parentNode.parentNode.parentNode.remove()
+})
+document.getElementById('remove').addEventListener('click', function(e){
+    e.target.parentNode.parentNode.parentNode.remove()
+})
+// document.getElementsByClassName('remove-item').addEventListener('click', function(e){
+//     e.target.parentNode.parentNode.parentNode.remove()
+// })
